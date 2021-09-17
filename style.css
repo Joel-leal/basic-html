@@ -1,0 +1,36 @@
+
+div.container{
+  width: 70%;
+  height: 700px;
+  box-shadow: 0 3px 5px black;
+  margin: 0 auto;
+}
+
+div.nav-bar{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 10px;
+  padding: 0.5rem;
+}
+nav {
+  border-bottom: 2px black;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+.link-nav{
+  padding: 0.4rem 1rem;
+  background-color:darkgray;
+}
+
+a:hover{
+color: rgb(255, 255, 255);
+}
+
+.link-nav:hover{
+  background-color:rgb(104, 103, 103);
+}
+
